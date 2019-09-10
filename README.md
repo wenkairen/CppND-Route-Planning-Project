@@ -2,7 +2,7 @@
 
 This repo contains the starter code for the Route Planning project.
 
-<img src="map.png" width="600" height="450" />
+<img src="images/r1.png" width="600" height="450" />
 
 ## Dependencies for Running Locally
 * cmake >= 3.11.3
