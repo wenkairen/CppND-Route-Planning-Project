@@ -20,17 +20,13 @@ This repo contains the starter code for the Route Planning project.
   * This library must be built in a place where CMake `find_package` will be able to find it
 
 ## Compiling and Running
+## Build instructions on Mac
+`git clone https://github.com/microsoft/vcpkg`
+`cd vcpkg`
+`./vcpkg install io2d`
+`cmake -DCMAKE_TOOLCHAIN_FILE=/Users/wenkairen/vcpkg/scripts/buildsystems/vcpkg.cmake ..`
+`make -j8`
 
-### Compiling
-To compile the project, first, create a `build` directory and change to that directory:
-```
-mkdir build && cd build
-```
-From within the `build` directory, then run `cmake` and `make` as follows:
-```
-cmake ..
-make
-```
 ### Running
 specify a map file:
 ```
